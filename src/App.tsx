@@ -33,7 +33,7 @@ function App() {
   });
 
   loader.load(
-    "./gltf/ventilator.gltf",
+    "./gltf/ventilator2.gltf",
     (gltf) => {
       const model = gltf.scene;
       model.position.set(0, 0, 0);
